@@ -1,0 +1,153 @@
+body {
+  background: url(images/03-15070025_000000.jpg);background-size: 100%;
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 100%; /*можно px, %, em Em и % масштабируемы, поэтому лучше использовать их*/
+  width: 94%;
+  margin: 25px auto;
+  padding: 0px}
+ul {list-style: none;}
+.clear{
+  clear: both;
+}
+#Logo {
+  border: 0px;
+  width: 100%;
+  height: 75.5px;
+  background-color: white;
+  margin-top: 0px;
+  border-bottom: 2px solid black;
+}
+#Logo img {
+  float: left;
+  height: 75px;
+}
+#Logo p {text-indent: 0px;/*отступ абзаца*/
+  color: #000000;
+  text-align: right;
+  font-weight: bolder;
+  line-height: 100%;
+  text-decoration: none; /*можно сделать подчеркивание и тд*/
+  margin-right: 25px;margin-top: 13px; margin-bottom: 0px;
+}
+#Logo a {
+  text-decoration: none;
+}
+#header {
+  width: 100%;
+  height: 250px;
+  float: right;
+}
+#header img{
+  width: 100%;
+  height: 250px;
+}
+#content_header {
+  float: relative;
+  height: 250px;
+  margin: 0px;
+  padding: 0px;
+  top: -50px;
+}
+#content_header p{
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  position: relative;
+  top: -240px;
+  margin-right: 2px;
+}
+#content_header h1{ font-size: 1.5em;
+      text-align: right;
+        margin: 0px;
+        position: relative;
+        top: -250px;}
+#content_header h2{ font-size: 1.3em;}
+#content_header h1,h2{text-align: right;
+  margin: 0px;
+  position: relative;
+  top: -250px;
+}
+#content_header p a{
+  background-color: black;
+  text-decoration: none;
+}
+#topmenu ul li a{
+  display: block;
+  font-size: 130%;
+  padding-left: 90px;
+  padding-right: 86px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  color: white;}
+}
+#topmenu{
+  background-color: blue;
+  width: 100%;
+}
+.Home a{
+  background-color: #de7878;
+}
+#topmenu ul li a:hover {
+  background-color: #de7878;
+}
+#topmenu ul li{
+  float: left;
+  padding-right: 0px;
+}
+#topmenu ul{
+  margin: 0px;
+  padding: 0px;
+}
+.products {
+  margin: 0px;
+padding:0px;
+height: 256px;}
+.products tr{color:#de7878; }
+.products td{padding: 0px;
+width: 320px;}
+.products p{margin: 0px;
+padding: 0px;
+width: 320px;}
+.list{text-align: center;
+padding: 50px;
+}
+.list a{
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+}
+#P1 {float: left;
+width: 110.6px;
+padding: 10px;}
+#P1 a{display: block;
+background-color: black;}
+#P2{float: left;
+width: 106.6px;
+padding: 10px;}
+#P2 a{display: block;
+background-color: black;}
+#P3{float: left;
+width: 106.6px;
+padding: 10px;}
+#P3 a{display: block;
+background-color: black;}
+.layer2 {position: relative;border: 0px solid black;padding: 40px 20px 10px;
+  width: 100%;}
+  .layer2, a {
+    text-align: center;
+    font-size: 130%;
+    padding-top: 0px;
+    color: #C0C0C0;
+  }
+.layer3 {position: relative;; float: right;border: 0px solid black;padding: 0px; width: 100%;margin-top: 0px}
+.table {background: url(images/podval.jpg);
+margin-top: 20px;}
+.table td{color: orange;}
+table {width: 100%;
+  border-top:1px solid white;
+  height: auto;
+  background: url(images/1uog.gif);
+  background-size:contain;
+  font-size: 20px;
+margin-bottom: 0px;}
